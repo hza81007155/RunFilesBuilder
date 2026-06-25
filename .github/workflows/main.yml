@@ -33,7 +33,7 @@ jobs:
           mkdir -p downloads
           cd downloads
           # 下载依赖ipk
-          curl -L -o passwall_packages_ipk_x86_64.zip https://github.com/hza81007155/RunFilesBuilder/releases/download/2026603/passwall-packages-x86-24.10.zip
+          curl -L -o passwall_packages_ipk_x86_64.zip https://github.com/hza81007155/RunFilesBuilder/releases/download/20260625/passwall-packages-x86-24.zip
           curl -L -o passwall_packages_ipk_aarch64_cortex-a53.zip https://github.com/hza81007155/RunFilesBuilder/releases/download/20260603/passwall-packages-24.10.zip
           # 下载主程序luci
           curl -LO "$(
